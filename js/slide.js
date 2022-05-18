@@ -4,7 +4,7 @@ jQuery( function ( $ ) {
 			slidesToShow: 1,
 			// dots: true,
 			arrows: false,
-			// autoplay: true,
+			autoplay: true,
 			rows: 0,
 			autoplaySpeed: 2500,
 		} );
@@ -67,8 +67,6 @@ jQuery( function ( $ ) {
 		} );
 	}
 	function slideMenu() {
-		// var activeState = $( '.menu' ).hasClass( 'active' );
-		// $( '.menu' ).animate( { right: activeState ? '-5vw' : '-105vw' }, 400 );
 		$( '.mobile' ).click( function ( e ) {
 			e.stopPropagation();
 			$( '.menu' ).css( 'right', '-5vw' );
