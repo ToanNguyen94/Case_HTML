@@ -333,7 +333,8 @@ p {
 			&::after {
 				content: '';
 				display: block;
-				background: url('../images/Arrowbg.svg') no-repeat;
+				// background: url('../images/Arrowbg.svg') no-repeat;
+				background: url('../images/Arrowbg.svg') no-repeat center center;
 				background-size: 100% 100%;
 				width: 155px;
 				height: 40px;

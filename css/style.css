@@ -287,7 +287,7 @@ p {
 .global__branch-item::after {
   content: "";
   display: block;
-  background: url("../images/Arrowbg.svg") no-repeat;
+  background: url("../images/Arrowbg.svg") no-repeat center center;
   background-size: 100% 100%;
   width: 155px;
   height: 40px;
@@ -540,9 +540,8 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
   margin: 0 auto;
-  padding: 30px 0;
+  padding: 30px 5%;
   background: #fafafa;
 }
 .footer__social img {
@@ -635,10 +634,6 @@ p {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .footer {
-    width: 100%;
-    padding: 30px;
-  }
   .footer__social {
     display: none;
   }
