@@ -202,7 +202,7 @@ p {
 }
 
 .global__bussiness {
-  background-image: url(/images/_Image-min.png);
+  background-image: url(../images/bg1.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -287,7 +287,7 @@ p {
 .global__branch-item::after {
   content: "";
   display: block;
-  background: url("/images/Arrow Illustration.svg") no-repeat;
+  background: url("../images/Arrowbg.svg") no-repeat;
   background-size: 100% 100%;
   width: 155px;
   height: 40px;
@@ -297,7 +297,7 @@ p {
 }
 .global__about {
   width: 35%;
-  background: url("/images/Image.png") no-repeat center center;
+  background: url("../images/Image.png") no-repeat center center;
   background-size: cover;
 }
 .global__aboutTop {
@@ -377,16 +377,16 @@ p {
   font-size: 17px;
 }
 .customer__item:nth-child(1) {
-  background-image: url(/images/image\ 71.png);
+  background-image: url(../images/bg2.png);
 }
 .customer__item:nth-child(2) {
-  background-image: url(/images/image\ 74.png);
+  background-image: url(../images/bg3.png);
 }
 .customer__item:nth-child(3) {
-  background-image: url(/images/image\ 76.png);
+  background-image: url(../images/bg4.png);
 }
 .customer__item:nth-child(4) {
-  background-image: url(/images/image\ 77.png);
+  background-image: url(../images/bg5.png);
 }
 .customer__item::after {
   position: absolute;

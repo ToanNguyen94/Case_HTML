@@ -229,7 +229,7 @@ p {
 // global
 .global {
 	&__bussiness {
-		background-image: url(/images/_Image-min.png);
+		background-image: url(../images/bg1.png);
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -333,7 +333,7 @@ p {
 			&::after {
 				content: '';
 				display: block;
-				background: url('/images/Arrow\ Illustration.svg') no-repeat;
+				background: url('../images/Arrowbg.svg') no-repeat;
 				background-size: 100% 100%;
 				width: 155px;
 				height: 40px;
@@ -346,7 +346,7 @@ p {
 
 	&__about {
 		width: 35%;
-		background: url('/images/Image.png') no-repeat center center;
+		background: url('../images/Image.png') no-repeat center center;
 		background-size: cover;
 	}
 
@@ -439,19 +439,19 @@ p {
 		font-size: 17px;
 
 		&:nth-child(1) {
-			background-image: url(../images/image71.png);
+			background-image: url(../images/bg2.png);
 		}
 
 		&:nth-child(2) {
-			background-image: url(../images/image74.png);
+			background-image: url(../images/bg3.png);
 		}
 
 		&:nth-child(3) {
-			background-image: url(../images/image76.png);
+			background-image: url(../images/bg4.png);
 		}
 
 		&:nth-child(4) {
-			background-image: url(../images/image77.png);
+			background-image: url(../images/bg5.png);
 		}
 
 		&::after {
